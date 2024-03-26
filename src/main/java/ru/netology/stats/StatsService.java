@@ -53,7 +53,7 @@ public class StatsService {
     }
 
     public int statMonthOverAvg(int[] sale) {
-        int averageSum = (int) statSaleAvgMonth(sale);
+        long averageSum = (long) statSaleAvgMonth(sale);
         int numberOverAverage = 0;
 
         // Запускаем цикл от 0 до длины массива sale
